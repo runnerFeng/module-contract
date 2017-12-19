@@ -22,7 +22,6 @@ contract MappingUser {
     function f()returns (uint amount) {
         conAddr = hex("0xf2bd5de8b57ebfc45dcee97524a7a08fccc80aef");
         userAddr = hex("0xca35b7d915458ef540ade6068dfe2f44e8fa733c");
-
         return MappingExample(conAddr).balances(userAddr);
     }
 }
